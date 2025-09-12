@@ -27,7 +27,6 @@ All HealthKit data remains on your device and is not transmitted to remote serve
 If you choose to purchase a Mindful Track+ (Plus) subscription, we:
 
 - Process your payment data using RevenueCat, which collects anonymous purchase history limited to Mindful Track subscriptions only. For more details, please see their [privacy policy](https://www.revenuecat.com/privacy).
-- Store your meditation session data locally on device, including session progress, favorite meditations, and practice statistics.
 
 ### Apple Watch Synchronization
 
