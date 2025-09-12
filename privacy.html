@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Mindful Track</title>
+    <link rel="icon" type="image/png" href="AppIcon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="AppIconDark.png" media="(prefers-color-scheme: dark)">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #4dd0e1 0%, #26a69a 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        h1::before {
+            content: "🔒 ";
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+        h3 {
+            color: #00695c;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            background: #e0f2f1;
+            padding: 10px 15px;
+            border-radius: 6px;
+            border-left: 4px solid #26a69a;
+        }
+        .version {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .intro-section {
+            background: #e0f2f1;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border-left: 4px solid #26a69a;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #26a69a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .effective-date {
+            margin-top: 40px;
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 8px;
+            color: #7f8c8d;
+            font-style: italic;
+            text-align: center;
+        }
+        .nav-links {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .nav-links a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            background: #26a69a;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(38, 166, 154, 0.3);
+        }
+        .nav-links a:hover {
+            background: #00796b;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(38, 166, 154, 0.4);
+        }
+        .nav-links a.current {
+            background: #2c3e50;
+        }
+        .highlight-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        /* Темная тема */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1a4b47 0%, #0d2818 100%);
+            }
+            .container {
+                background: #1e1e1e;
+                color: #e0e0e0;
+            }
+            h1 {
+                color: #4dd0e1;
+            }
+            h2 {
+                color: #4dd0e1;
+                border-bottom-color: #3c3c3c;
+            }
+            h3 {
+                background: #2c2c2c;
+                color: #4dd0e1;
+                border-left-color: #4dd0e1;
+            }
+            .intro-section {
+                background: #2c2c2c;
+                border-left-color: #4dd0e1;
+            }
+            .effective-date {
+                background: #2c2c2c;
+                color: #b0b0b0;
+            }
+            .highlight-box {
+                background: #3d2f00;
+                border-color: #665500;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nav-links a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="privacy.html" class="current">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+        </div>
+
+        <h1>Privacy Policy</h1>
+        <div class="version">version 1.0</div>
+
+        <div class="intro-section">
+            <p>Mindful Track is a meditation and mindfulness app, and we believe that a meditation app should provide a good mindfulness practice experience which also includes peace of mind when it comes to data responsibility.</p>
+            <p>This Privacy Policy explains what information we collect and why. It applies to the iOS, iPadOS, watchOS and apps.</p>
+        </div>
+
+        <h2>What information do you collect about me?</h2>
+
+        <p>For our base functionality, Mindful Track collects the following types of information:</p>
+
+        <ul>
+            <li>App crash data and performance (using <a href="https://firebase.google.com/support/privacy">Firebase Crashlytics</a>).</li>
+            <li>App usage data (using <a href="https://firebase.google.com/support/privacy">Firebase Analytics</a>).</li>
+            <li>App settings and user preferences (stored locally on device or in iCloud for synchronization across your devices).</li>
+        </ul>
+
+        <h3>Apple HealthKit Integration</h3>
+
+        <p>If you grant permission, the app may:</p>
+
+        <ul>
+            <li><strong>Read data from HealthKit</strong>: heart rate, heart rate variability, active energy, mindfulness session data</li>
+            <li><strong>Write data to HealthKit</strong>: mindfulness minutes</li>
+        </ul>
+
+        <p>All HealthKit data remains on your device and is not transmitted to remote servers.</p>
+
+        <h3>Mindful Track+ (Plus) Subscription</h3>
+
+        <p>If you choose to purchase a Mindful Track+ (Plus) subscription, we:</p>
+
+        <ul>
+            <li>Process your payment data using RevenueCat, which collects anonymous purchase history limited to Mindful Track subscriptions only. For more details, please see their <a href="https://www.revenuecat.com/privacy">privacy policy</a>.</li>
+            <li>Store your meditation session data locally on device, including session progress, favorite meditations, and practice statistics.</li>
+        </ul>
+
+        <h3>Apple Watch Synchronization</h3>
+
+        <p>When using Apple Watch, the app synchronizes:</p>
+
+        <ul>
+            <li>Recent meditation session data</li>
+            <li>Favorite meditations</li>
+            <li>Subscription status</li>
+        </ul>
+
+        <p>This data is transmitted only between your devices via Apple Watch Connectivity and is not stored on our servers.</p>
+
+        <h3>Media Content Integration</h3>
+
+        <p>Mindful Track may allow you to access meditation and mindfulness content from your device or online platforms (such as YouTube). Please note:</p>
+
+        <ul>
+            <li>We do not control the content available on third-party platforms</li>
+            <li>Each platform's own privacy policy and terms of service apply to any content you access through that platform</li>
+            <li>We are not responsible for how third-party platforms collect, use, or share your data when you use their services</li>
+            <li>Any data collected by third-party platforms while you use their content is subject to their privacy practices, not ours</li>
+            <li>We may analyze your interaction with media content to provide session effectiveness evaluation and statistics</li>
+        </ul>
+
+        <h2>How do you use my information?</h2>
+
+        <ul>
+            <li>To provide all the features specified in the subscription service.</li>
+            <li>To provide effective support to you during your use of the app.</li>
+            <li>To understand how Mindful Track services are used and to improve our services.</li>
+            <li>To synchronize data between your Apple devices.</li>
+        </ul>
+
+        <h2>Will you send me emails?</h2>
+
+        <p>No.</p>
+
+        <h2>Will you share my information?</h2>
+
+        <p>No. We do not share your personal information with third parties, except as described in this policy.</p>
+
+        <h2>Can I delete my information?</h2>
+
+        <p>Yes, you can delete all app data by removing the app from your device. HealthKit data remains under your control and can be deleted through the Health app on iOS.</p>
+
+        <h2>Can I have a copy of my information?</h2>
+
+        <p>Since all your data is stored locally on your device and we don't maintain any servers or user accounts, you already have full access to all your information through the app. Your meditation sessions, settings, and preferences are stored on your device and can be backed up through your device's backup system (iCloud, iTunes, etc.).</p>
+
+        <h2>Will This Privacy Policy Ever Change?</h2>
+
+        <p>We may need to update this Policy to reflect changes in our provided services, our business and applicable laws. We will, however, always maintain our commitment to respect your privacy. We will post any revisions to this Policy on our public Github code repository. Your use of our services after any change will be subject to the new Privacy Policy.</p>
+
+        <p>If you have any questions or concerns about our Privacy Policy, please contact us at <a href="mailto:codedbear@icloud.com">codedbear@icloud.com</a></p>
+
+        <div class="effective-date">
+            Effective Date: September 15, 2025
+        </div>
+    </div>
+</body>
+</html>

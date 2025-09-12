@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Track - Legal Documents</title>
+    <link rel="icon" type="image/png" href="AppIcon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="AppIconDark.png" media="(prefers-color-scheme: dark)">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #4dd0e1 0%, #26a69a 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .app-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 10px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            filter: drop-shadow(0 4px 12px rgba(0,0,0,0.2));
+            border-radius: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            margin-bottom: 40px;
+            font-size: 1.2em;
+        }
+        .app-description {
+            background: #e0f2f1;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 40px;
+            border-left: 4px solid #26a69a;
+        }
+        .app-description h2 {
+            color: #34495e;
+            margin-bottom: 15px;
+        }
+        .links-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .link-card {
+            background: #26a69a;
+            color: white;
+            padding: 25px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(38, 166, 154, 0.3);
+            min-width: 200px;
+        }
+        .link-card:hover {
+            background: #00796b;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(38, 166, 154, 0.4);
+            color: white;
+            text-decoration: none;
+        }
+        .link-card h3 {
+            margin: 0 0 10px 0;
+            font-size: 1.3em;
+        }
+        .link-card p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 0.9em;
+        }
+        .contact-section {
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        .contact-section h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .contact-section a {
+            color: #26a69a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        /* Темная тема */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background: linear-gradient(135deg, #1a4b47 0%, #0d2818 100%);
+            }
+            .container {
+                background: #1e1e1e;
+                color: #e0e0e0;
+            }
+            h1 {
+                color: #4dd0e1;
+            }
+            .subtitle {
+                color: #b0b0b0;
+            }
+            .app-description {
+                background: #2c2c2c;
+                border-left-color: #4dd0e1;
+            }
+            .app-description h2 {
+                color: #4dd0e1;
+            }
+            .contact-section {
+                background: #2c2c2c;
+            }
+            .contact-section h3 {
+                color: #4dd0e1;
+            }
+            .footer {
+                border-top-color: #3c3c3c;
+                color: #b0b0b0;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .links-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .link-card {
+                width: 100%;
+                max-width: 300px;
+            }
+            .app-header {
+                flex-direction: column;
+                gap: 15px;
+            }
+            .app-icon {
+                width: 60px;
+                height: 60px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app-header">
+            <img src="AppIcon.png" alt="Mindful Track" class="app-icon">
+            <h1>Mindful Track</h1>
+        </div>
+        <p class="subtitle">Legal Documents & Policies</p>
+        
+        <div class="app-description">
+            <h2>About Mindful Track</h2>
+            <p>Mindful Track is a meditation and mindfulness app designed to provide a peaceful and secure mindfulness practice experience. We believe in transparency and user privacy, which is why we've made our legal documents easily accessible.</p>
+        </div>
+
+        <div class="links-container">
+            <a href="privacy.html" class="link-card">
+                <h3>🔒 Privacy Policy</h3>
+                <p>Learn how we protect your data and respect your privacy</p>
+            </a>
+            
+            <a href="terms.html" class="link-card">
+                <h3>📋 Terms of Service</h3>
+                <p>Understand the terms governing your use of our app</p>
+            </a>
+        </div>
+
+        <div class="contact-section">
+            <h3>Questions or Concerns?</h3>
+            <p>If you have any questions about our policies or the app, please contact us at <a href="mailto:codedbear@icloud.com">codedbear@icloud.com</a></p>
+        </div>
+
+        <div class="footer">
+            <p>All policies are effective as of September 15, 2025</p>
+        </div>
+    </div>
+</body>
+</html>
