@@ -1,6 +1,10 @@
 title: Mindful Track
 description: Legal Documents & Policies
 
+# Site URL for GitHub Pages
+url: "https://c0dedbear.github.io"
+baseurl: "/mindful-track-public"
+
 # Jekyll settings
 markdown: kramdown
 highlighter: rouge

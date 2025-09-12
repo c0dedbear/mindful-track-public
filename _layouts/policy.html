@@ -180,9 +180,9 @@
 <body>
     <div class="container">
         <div class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="privacy" {% if page.url contains 'privacy' %}class="current"{% endif %}>Privacy Policy</a>
-            <a href="terms" {% if page.url contains 'terms' %}class="current"{% endif %}>Terms of Service</a>
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/privacy" {% if page.url contains 'privacy' %}class="current"{% endif %}>Privacy Policy</a>
+            <a href="{{ site.baseurl }}/terms" {% if page.url contains 'terms' %}class="current"{% endif %}>Terms of Service</a>
         </div>
 
         {{ content }}
