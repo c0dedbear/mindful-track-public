@@ -1,9 +1,18 @@
-# Privacy Policy
-###### version 1.0
+---
+layout: policy
+title: Privacy Policy
+icon: 🔒
+---
+
+<div class="version">version 1.0</div>
+
+<div class="intro-section">
 
 Mindful Track is a meditation and mindfulness app, and we believe that a meditation app should provide a good mindfulness practice experience which also includes peace of mind when it comes to data responsibility.
 
 This Privacy Policy explains what information we collect and why. It applies to the iOS, iPadOS, watchOS and apps.
+
+</div>
 
 ## What information do you collect about me?
 
@@ -27,6 +36,7 @@ All HealthKit data remains on your device and is not transmitted to remote serve
 If you choose to purchase a Mindful Track+ (Plus) subscription, we:
 
 - Process your payment data using RevenueCat, which collects anonymous purchase history limited to Mindful Track subscriptions only. For more details, please see their [privacy policy](https://www.revenuecat.com/privacy).
+- Store your meditation session data locally on device, including session progress, favorite meditations, and practice statistics.
 
 ### Apple Watch Synchronization
 
@@ -77,4 +87,6 @@ We may need to update this Policy to reflect changes in our provided services, o
 
 If you have any questions or concerns about our Privacy Policy, please contact us at [codedbear@icloud.com](mailto:codedbear@icloud.com)
 
+<div class="effective-date">
 Effective Date: September 15, 2025
+</div>
