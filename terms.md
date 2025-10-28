@@ -4,30 +4,30 @@ title: Terms of Service
 icon: 📋
 ---
 
-<div class="version">version 1.0</div>
+<div class="version">version 1.1</div>
 
 <div class="intro-section">
 
-Welcome to Mindful Track! These Terms of Service ("Terms") govern your use of our meditation and mindfulness app ("App") and services. By using our App, you agree to these Terms.
+Welcome to Mindful Space! These Terms of Service ("Terms") govern your use of our meditation and mindfulness app ("App") and services. By using our App, you agree to these Terms.
 
 </div>
 
 ## 1. Acceptance of Terms
 
-By downloading, installing, or using Mindful Track, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our App.
+By downloading, installing, or using Mindful Space, you agree to be bound by these Terms. If you do not agree to these Terms, please do not use our App.
 
 ## 2. Description of Service
 
-Mindful Track is a meditation and mindfulness application that provides access to media content from your device or online platforms (such as YouTube) for mindfulness practices, session effectiveness evaluation, and statistics
+Mindful Space is a meditation and mindfulness application that provides access to media content from your device or online platforms (such as YouTube) for mindfulness practices, session effectiveness evaluation, and statistics
 
 ## 3. User Accounts
 
-Mindful Track does not require user accounts. All data is stored locally on your device and may be synchronized across your Apple devices through iCloud. You are responsible for backing up your data through your device's backup system (iCloud, iTunes, etc.), as we do not maintain servers or cloud storage for your personal data.
+Mindful Space does not require user accounts. All data is stored locally on your device and may be synchronized across your Apple devices through iCloud. You are responsible for backing up your data through your device's backup system (iCloud, iTunes, etc.), as we do not maintain servers or cloud storage for your personal data.
 
 ## 4. Subscription Services
 
-### Mindful Track+ (Plus) Subscription
-- Our App offers subscription services called Mindful Track+ (Plus)
+### Mindful Space+ (Plus) Subscription
+- Our App offers subscription services called Mindful Space+ (Plus)
 - We offer both recurring monthly/yearly subscriptions and a one-time lifetime purchase option
 - Subscription fees are charged through your Apple ID account
 - Recurring subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period
@@ -116,6 +116,14 @@ If any provision of these Terms is held to be invalid or unenforceable, the rema
 
 ---
 
+## Version History
+
+**Version 1.1** - October 28, 2025
+- Rebranded from Mindful Track to Mindful Space
+
+**Version 1.0** - September 15, 2025
+- Initial release
+
 <div class="effective-date">
-Effective Date: September 15, 2025
+Effective Date: October 28, 2025
 </div>

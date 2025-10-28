@@ -4,11 +4,11 @@ title: Privacy Policy
 icon: 🔒
 ---
 
-<div class="version">version 1.0</div>
+<div class="version">version 1.1</div>
 
 <div class="intro-section">
 
-Mindful Track is a meditation and mindfulness app, and we believe that a meditation app should provide a good mindfulness practice experience which also includes peace of mind when it comes to data responsibility.
+Mindful Space is a meditation and mindfulness app, and we believe that a meditation app should provide a good mindfulness practice experience which also includes peace of mind when it comes to data responsibility.
 
 This Privacy Policy explains what information we collect and why. It applies to the iOS, iPadOS, watchOS and apps.
 
@@ -16,7 +16,7 @@ This Privacy Policy explains what information we collect and why. It applies to 
 
 ## What information do you collect about me?
 
-For our base functionality, Mindful Track collects the following types of information:
+For our base functionality, Mindful Space collects the following types of information:
 
 - App crash data and performance (using [Firebase Crashlytics](https://firebase.google.com/support/privacy)).
 - App usage data (using [Firebase Analytics](https://firebase.google.com/support/privacy)).
@@ -31,11 +31,11 @@ If you grant permission, the app may:
 
 All HealthKit data remains on your device and is not transmitted to remote servers.
 
-### Mindful Track+ (Plus) Subscription
+### Mindful Space+ (Plus) Subscription
 
-If you choose to purchase a Mindful Track+ (Plus) subscription, we:
+If you choose to purchase a Mindful Space+ (Plus) subscription, we:
 
-- Process your payment data using RevenueCat, which collects anonymous purchase history limited to Mindful Track subscriptions only. For more details, please see their [privacy policy](https://www.revenuecat.com/privacy).
+- Process your payment data using RevenueCat, which collects anonymous purchase history limited to Mindful Space subscriptions only. For more details, please see their [privacy policy](https://www.revenuecat.com/privacy).
 - Store your meditation session data locally on device, including session progress, favorite meditations, and practice statistics.
 
 ### Apple Watch Synchronization
@@ -50,7 +50,7 @@ This data is transmitted only between your devices via Apple Watch Connectivity 
 
 ### Media Content Integration
 
-Mindful Track may allow you to access meditation and mindfulness content from your device or online platforms (such as YouTube). Please note:
+Mindful Space may allow you to access meditation and mindfulness content from your device or online platforms (such as YouTube). Please note:
 
 - We do not control the content available on third-party platforms
 - Each platform's own privacy policy and terms of service apply to any content you access through that platform
@@ -62,7 +62,7 @@ Mindful Track may allow you to access meditation and mindfulness content from yo
 
 - To provide all the features specified in the subscription service.
 - To provide effective support to you during your use of the app.
-- To understand how Mindful Track services are used and to improve our services.
+- To understand how Mindful Space services are used and to improve our services.
 - To synchronize data between your Apple devices.
 
 ## Will you send me emails?
@@ -87,6 +87,14 @@ We may need to update this Policy to reflect changes in our provided services, o
 
 If you have any questions or concerns about our Privacy Policy, please contact us at [codedbear@icloud.com](mailto:codedbear@icloud.com)
 
+## Version History
+
+**Version 1.1** - October 28, 2025
+- Rebranded from Mindful Track to Mindful Space
+
+**Version 1.0** - September 15, 2025
+- Initial release
+
 <div class="effective-date">
-Effective Date: September 15, 2025
+Effective Date: October 28, 2025
 </div>
